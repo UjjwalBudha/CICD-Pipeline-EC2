@@ -34,23 +34,23 @@ This Terraform project automates the setup of an EC2 instance on AWS. It provisi
 
 ## Configuration Details
 
-### `main.tf`
+# `main.tf`
 
 This file defines the main Terraform configuration. It provisions the EC2 instance, configures the AWS provider, sets up the Terraform backend to store state in an S3 bucket, creates a default VPC if one does not exist, creates a default subnet, and configures a security group for the EC2 instance.
 
-### `output.tf`
+# `output.tf`
 
 This file defines the output configuration. It prints the URL of the EC2 instance to the console after provisioning.
 
-### `variables.tf`
+# `variables.tf`
 
 This file defines the input variables used in the Terraform configuration. It includes variables for AWS access key, secret key, and other configurable parameters.
 
-### `terraform.tfvars`
+# `terraform.tfvars`
 
 This file contains the values for the input variables defined in `variables.tf`. You should populate this file with your AWS access key, secret key, and any other required variables.
 
-### `install_techmax.sh`
+# `install_techmax.sh`
 
 This shell script is executed on the EC2 instance to install the desired website or application. You can customize this script according to your requirements.
 
