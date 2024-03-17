@@ -14,22 +14,13 @@ This Terraform project automates the setup of an EC2 instance on AWS. It provisi
 
 ```git clone <repository_url>```
 
-css
-Copy code
-
 2. Navigate to the project directory.
 
-cd <project_directory>
-
-markdown
-Copy code
+```cd <project_directory>```
 
 3. Initialize Terraform.
 
-terraform init
-
-vbnet
-Copy code
+```terraform init```
 
 4. Review and modify the `terraform.tfvars` file to set your AWS access key, secret key, and any other variables.
 
@@ -37,10 +28,7 @@ Copy code
 
 6. Apply the Terraform configuration to create the infrastructure.
 
-terraform apply
-
-vbnet
-Copy code
+```terraform apply```
 
 7. After the setup is complete, the URL of the server will be printed to the console.
 
@@ -70,4 +58,4 @@ This shell script is executed on the EC2 instance to install the desired website
 
 To avoid incurring unnecessary costs, it's essential to destroy the infrastructure when it's no longer needed. You can do this by running:
 
-terraform destroy
+```terraform destroy```
