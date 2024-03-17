@@ -12,7 +12,7 @@ This Terraform project automates the setup of an EC2 instance on AWS. It provisi
 
 1. Clone this repository to your local machine.
 
-git clone <repository_url>
+```git clone <repository_url>```
 
 css
 Copy code
